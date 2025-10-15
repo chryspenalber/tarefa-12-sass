@@ -1,0 +1,16 @@
+@use 'variaveis' as v;
+
+/* Reset simples */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tipografia e cores */
+body {
+    font-family: 'Inter', 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+    line-height: 1.6;
+    color: v.$neutro-700;
+    background-color: v.$neutro-50;
+}

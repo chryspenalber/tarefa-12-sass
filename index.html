@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agência Criativa Web</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="header__logo">Agência Criativa Web</div>
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__item"><a class="menu__link" href="#home">Home</a></li>
+                <li class="menu__item"><a class="menu__link" href="#sobre">Sobre Nós</a></li>
+                <li class="menu__item"><a class="menu__link" href="#servicos">Serviços</a></li>
+                <li class="menu__item"><a class="menu__link" href="#depoimentos">Depoimentos</a></li>
+                <li class="menu__item"><a class="menu__link" href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home -->
+    <section id="home" class="banner section">
+    
+        <div class="banner__description">
+            <h1>Bem-vindo à Agência Criativa Web</h1>
+            <p>Transformamos ideias em experiências digitais incríveis!</p>
+        </div>
+            <img 
+            src="./images/banner-768.jpg" 
+            srcset="
+                ./images/banner-480.jpg 480w,
+                ./images/banner-768.jpg 768w,
+                ./images/banner-1200.jpg 1200w" 
+            sizes="(max-width: 600px) 480px,
+                (max-width: 900px) 768px, 1200px" 
+            alt="Banner da Agência Criativa Web" 
+            class="banner__img">
+    </section>
+
+
+
+    <!-- Sobre Nós -->
+    <section class="section" id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Somos uma agência focada em design digital moderno, criatividade e soluções que encantam nossos clientes.</p>
+    </section>
+
+    <!-- Serviços -->
+    <section class="section" id="servicos">
+        <h2>Serviços</h2>
+        <div class="servicos">
+            <div class="servicos__item">Design Gráfico</div>
+            <div class="servicos__item">Desenvolvimento Web</div>
+            <div class="servicos__item">Branding</div>
+            <div class="servicos__item">UX/UI Design</div>
+            <div class="servicos__item">Marketing Digital</div>
+            <div class="servicos__item">Consultoria</div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="section" id="depoimentos">
+        <h2>Depoimentos</h2>
+        <div class="depoimentos">
+            <div class="depoimentos__item">
+                <p>"Excelente trabalho! A equipe é criativa e super comprometida."</p>
+                <span>- Alberto Stein</span>
+            </div>
+            <div class="depoimentos__item">
+                <p>"Recomendo a Agência Criativa Web para qualquer projeto digital."</p>
+                <span>- Antônio Strike</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="section" id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco:</p>
+        <form class="contato">
+            <input class="contato__border" type="text" name="nome" placeholder="Nome" required>
+            <input class="contato__border" type="email" name="email" placeholder="E-mail" required>
+            <textarea class="contato__border" name="mensagem" placeholder="Mensagem" required></textarea>
+            <button class="contato__btn" type="submit">Enviar</button>
+        </form>
+        
+    </section>
+
+<footer class="footer">
+    <p class="footer__text">Telefone: (21) 12345-6789 | E-mail: contato@agenciacriativa.com | Endereço: Rua da Criatividade,
+        123</p>
+</footer>
+</body>
+</html>

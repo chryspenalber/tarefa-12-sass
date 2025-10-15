@@ -1,0 +1,24 @@
+@use 'variaveis' as v;
+@use 'base' as b;
+@use 'mixins' as m;
+@use 'layout' as l;
+@use 'componentes' as c;
+@use "sass:math";
+
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+    }
+
+   .menu__list {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .depoimentos {
+        flex-direction: column;
+    }
+}

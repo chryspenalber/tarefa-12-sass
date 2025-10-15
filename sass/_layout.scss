@@ -1,0 +1,25 @@
+@use 'variaveis' as v;
+
+/* Cabeçalho */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background-color: v.$neutro-800 ;
+    color: v.$neutro-0;
+}
+
+/* Seções */
+.section {
+    padding: 5vh 5%;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+
+    &__text {
+        margin: 0.5rem 0;
+    }
+}

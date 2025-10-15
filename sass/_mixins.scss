@@ -1,0 +1,22 @@
+@use 'variaveis' as v;
+@use "sass:math";
+
+@mixin botao-base($cor-fundo, $cor-texto) {
+    background-color: $cor-fundo;
+    color: $cor-texto;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+        opacity: 0.9;
+    }
+}
+
+@mixin item-base {
+    background-color: v.$neutro-0;
+    padding: v.$espaco-duplo;
+    border-radius: 10px;
+}
+
